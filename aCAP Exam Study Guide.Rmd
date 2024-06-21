@@ -2710,55 +2710,43 @@ foster strong, collaborative relationships with stakeholders.
 
 ------------------------------------------------------------------------
 
-Certainly! Here is the reorganized glossary for easy copy and paste,
-starting at Appendix B:
-
-------------------------------------------------------------------------
-
 # ***Appendix B: Using the Study Guide to Help Prepare for the CAP® Exam***
 
 ## **Business and Management**
 
-**Activity-Based Costing**
-
+**Activity-Based Costing**\
 A method of assigning costs to products or services based on the
 resources they consume, allowing for more accurate cost allocation by
 identifying and evaluating activities that incur costs.
 
-**Assemble-to-Order (ATO)**
-
+**Assemble-to-Order (ATO)**\
 A manufacturing process where products are assembled as they are
 ordered, characterized by rapid production and customization, enabling
 companies to efficiently meet specific customer demands.
 
-**Automation**
-
+**Automation**\
 The use of technology and mechanical means to perform work previously
 done by human effort, aiming to improve efficiency, reduce errors, and
 lower labor costs.
 
-**Average**
-
+**Average**\
 The sum of a range of values divided by the number of values to arrive
 at a characteristic value of the midpoint of the range; see also, Mean.
 This is a central value of a set of numbers. Mathematically, the average
 is given by $\text{Average} = \frac{\sum x_i}{n}$.
 
-**Balanced Scorecard**
-
+**Balanced Scorecard**\
 A performance management tool that provides a view of an organization
 from four perspectives: financial, customer, internal processes, and
 learning and growth. It helps organizations translate strategic
 objectives into a set of performance measures.
 
-**Benchmarking**
-
+**Benchmarking**\
 The act of comparison against a standard or the behavior of another to
 determine the degree of conformity to the standard or behavior, often
 used to identify best practices and improvement opportunities.
 
-**Business Analytics (BA)**
-
+**Business Analytics (BA)**\
 Skills, technologies, applications, and practices for continuous
 iterative exploration and investigation of past business performance to
 gain insight and drive business planning. BA can be descriptive,
@@ -2766,308 +2754,314 @@ prescriptive, or predictive, focusing on developing new insights and
 understanding of business performance based on data and statistical
 methods.
 
-**Business Case**
-
+**Business Case**\
 The reasoning underlying and supporting the estimates of business
 consequences of an action, typically used to justify investments or
 strategic decisions.
 
-**Business Intelligence (BI)**
+**Business Continuity Planning**\
+A process that outlines procedures and instructions an organization must
+follow in the face of disaster, ensuring that essential functions can
+continue during and after a crisis.
 
+**Business Intelligence (BI)**\
 A set of methodologies, processes, architectures, and technologies that
 transform raw data into meaningful and useful information for business
 analysis purposes.
 
-**Business Process Modeling or Mapping (BPM)**
-
+**Business Process Modeling or Mapping (BPM)**\
 A method used to visually depict business processes, often with the goal
 of analyzing and improving them. This can help organizations optimize
 their workflows and increase efficiency.
 
-**Change Management**
-
+**Change Management**\
 The discipline that guides how to prepare, equip, and support
 individuals to successfully adopt change to drive organizational success
 and outcomes.
 
-**Cost-Benefit Analysis**
-
+**Cost-Benefit Analysis**\
 A systematic approach to estimating the strengths and weaknesses of
 alternatives to determine the best approach in terms of benefits versus
 costs.
 
-**Lean Six Sigma**
+**Customer Lifetime Value (CLV)**\
+A metric that represents the total net profit a company expects to earn
+over the entire relationship with a customer.
 
+**Lean Six Sigma**\
 A methodology that relies on a collaborative team effort to improve
 performance by systematically removing waste and reducing variation,
 combining lean manufacturing/lean enterprise and Six Sigma principles.
 
-**Net Present Value**
-
+**Net Present Value**\
 The value in today’s currency of an item or service, calculated by
 discounting future cash flows to the present value using a specific
 discount rate. Mathematically, it is represented as
 $\text{NPV} = \sum \frac{C_t}{(1 + r)^t}$ where $C_t$ is the net cash
 inflow during the period $t$, and $r$ is the discount rate.
 
-**Next Best Offer (NBO)**
-
+**Next Best Offer (NBO)**\
 A targeted offer or proposed action for customers based on analyses of
 past history and behavior, other customer preferences, purchasing
 context, and attributes of the products or services from which they can
 choose. This is aimed at increasing customer satisfaction and sales.
 
-**Strategic Planning**
-
+**Strategic Planning**\
 The process of defining an organization's strategy, direction, and
 making decisions on allocating its resources to pursue this strategy,
 including its capital and people.
 
-**Variable Cost**
-
+**Variable Cost**\
 A periodic cost that varies in step with the output or the sales revenue
 of a company. Variable costs include raw material, energy usage, labor,
 distribution costs, etc. These costs fluctuate with production volume.
 
 ## **Data Science and Analytics**
 
-**Analytics**
-
+**Analytics**\
 The scientific process of transforming data into insight for making
 better decisions. This involves collecting, processing, and analyzing
 data to extract actionable information.
 
-**Artificial Intelligence (AI)**
+**Anomaly Detection**\
+The identification of rare items, events, or observations that raise
+suspicions by differing significantly from the majority of the data.
 
+**Artificial Intelligence (AI)**\
 A branch of computer science that studies and develops intelligent
 machines and software capable of performing tasks that typically require
 human intelligence, such as visual perception, speech recognition,
 decision-making, and language translation.
 
-**Artificial Neural Networks**
-
+**Artificial Neural Networks**\
 Computer-based models inspired by animal central nervous systems, used
 to recognize patterns and classify data through a network of
 interconnected nodes or neurons.
 
-**Bayesian Inference**
-
+**Bayesian Inference**\
 A method of statistical inference in which Bayes' theorem is used to
 update the probability for a hypothesis as more evidence or information
 becomes available.
 
-**Big Data**
-
+**Big Data**\
 Data sets too voluminous or too unstructured to be analyzed by
 traditional means, often characterized by high volume, high velocity,
 and high variety.
 
-**Clustering**
-
+**Clustering**\
 A type of unsupervised learning used to group sets of objects in such a
 way that objects in the same group (or cluster) are more similar to each
 other than to those in other groups.
 
-**Confusion Matrix**
-
+**Confusion Matrix**\
 A table used to describe the performance of a classification model,
 showing the true positives, false positives, true negatives, and false
 negatives.
 
-**Correlation**
-
+**Correlation**\
 A measure of the extent to which two variables change together,
 indicating the strength and direction of their relationship.
 Mathematically, the correlation coefficient $r$ is given by
 $r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}$.
 
-**Cross-Validation**
-
+**Cross-Validation**\
 A model validation technique for assessing how the results of a
 statistical analysis will generalize to an independent data set,
 typically by partitioning the data into training and testing sets.
 
-**Data Mining**
-
+**Data Mining**\
 The practice of examining large databases to generate new information,
 often through the use of machine learning, statistics, and database
 systems.
 
-**Data Science**
-
+**Data Science**\
 A field that uses scientific methods, processes, algorithms, and systems
 to extract knowledge and insights from structured and unstructured data,
 combining aspects of statistics, computer science, and domain expertise.
 
-**Data Visualization**
-
+**Data Visualization**\
 The graphical representation of information and data, using visual
 elements like charts, graphs, and maps to make data more accessible and
 understandable.
 
-**Decision Tree**
-
+**Decision Tree**\
 A decision support tool that uses a tree-like graph or model of
 decisions and their possible consequences, including chance event
 outcomes, resource costs, and utility.
 
-**Descriptive Analytics**
-
+**Descriptive Analytics**\
 The interpretation of historical data to better understand changes that
 have occurred, focusing on summarizing past events.
 
-**Diagnostic Analytics**
-
+**Diagnostic Analytics**\
 The process of examining data to understand the cause and effect of
 events, identifying patterns and anomalies to explain why something
 happened.
 
-**Dimensionality Reduction**
-
+**Dimensionality Reduction**\
 Techniques used to reduce the number of input variables in a dataset,
 improving the performance of machine learning models and visualizing
 data better. Examples include Principal Component Analysis (PCA) and
 t-Distributed Stochastic Neighbor Embedding (t-SNE).
 
-**Ensemble Learning**
-
+**Ensemble Learning**\
 The process of combining multiple models to produce a better model,
 often improving predictive performance by reducing variance and bias.
 
-**Exploratory Data Analysis (EDA)**
-
+**Exploratory Data Analysis (EDA)**\
 An approach to analyzing data sets to summarize their main
 characteristics, often with visual methods, to discover patterns, spot
 anomalies, and test hypotheses.
 
-**Feature Engineering**
-
+**Feature Engineering**\
 The process of using domain knowledge to extract features
 (characteristics, properties, attributes) from raw data, making machine
 learning algorithms work more effectively.
 
-**Hyperparameter Tuning**
+**Fuzzy Logic**\
+A form of logic used in computing where truth values are expressed in
+degrees rather than binary true or false. It allows for more flexible
+reasoning compared to classical logic.
 
+**Hyperparameter Tuning**\
 The process of choosing a set of optimal hyperparameters for a learning
 algorithm. Hyperparameters are parameters whose values are set before
 the learning process begins.
 
-**Predictive Analytics**
+**Metaheuristics**\
+A general framework for heuristics in solving hard problems, such as Ant
+Colony Optimization, Genetic Algorithms, Memetic Algorithms, Neural
+Networks, etc., used to find approximate solutions to complex
+optimization problems.
 
+**Natural Language Processing (NLP)**\
+A field of artificial intelligence that gives machines the ability to
+read, understand, and derive meaning from human languages.
+
+**Overfitting**\
+A modeling error that occurs when a function is too closely fit to a
+limited set of data points, causing poor generalization to new data.
+
+**Predictive Analytics**\
 The practice of extracting information from existing data sets to
 determine patterns and predict future outcomes and trends, often using
 statistical and machine learning techniques.
 
-**Prescriptive Analytics**
-
+**Prescriptive Analytics**\
 The area of business analytics dedicated to finding the best course of
 action for a given situation, often involving optimization and
 simulation techniques.
 
-**Random Forest**
-
+**Random Forest**\
 A versatile machine learning method capable of performing both
 regression and classification tasks, using an ensemble of decision
 trees.
 
-**Regression Analysis**
-
-A set of statistical processes for estimating the relationships among
-variables, often used for prediction and forecasting. Linear regression
-can be represented as $y = \beta_0 + \beta_1 x + \epsilon$.
-
-**Reinforcement Learning**
-
+**Reinforcement Learning**\
 An area of machine learning where an agent learns to behave in an
 environment by performing actions and seeing the results, using a
 reward-based feedback loop.
 
-**Sentiment Analysis**
+**Regression Analysis**\
+A set of statistical processes for estimating the relationships among
+variables, often used for prediction and forecasting. Linear regression
+can be represented as $y = \beta_0 + \beta_1 x + \epsilon$.
 
+**Sentiment Analysis**\
 The use of natural language processing to systematically identify,
 extract, quantify, and study affective states and subjective information
 from text.
 
-**Supervised Learning**
-
+**Supervised Learning**\
 A type of machine learning where the model is trained on labeled data,
 learning to predict the output from the input data.
 
-**Support Vector Machine (SVM)**
+**Support Vector Machine (SVM)**\
+A supervised learning
 
-A supervised learning model that analyzes data for classification and
-regression analysis, finding the optimal hyperplane that best separates
-the data into classes.
+model that analyzes data for classification and regression analysis,
+finding the optimal hyperplane that best separates the data into
+classes.
 
-**Unsupervised Learning**
+**Underfitting**\
+A modeling error that occurs when a function is too simple to capture
+the underlying structure of the data, leading to poor performance on
+both training and test data.
 
+**Unsupervised Learning**\
 A type of machine learning where the model is trained on unlabeled data,
 identifying hidden patterns or intrinsic structures in the input data.
 
 ## **Mathematical and Statistical Concepts**
 
-**Accuracy**
-
+**Accuracy**\
 The degree to which the result of a measurement, calculation, or
 specification conforms to the correct value or standard, indicating the
 closeness of measurements to the true value.
 
-**Algorithm**
-
+**Algorithm**\
 A set of specific steps to solve a problem, often used in computing and
 mathematics to perform calculations, data processing, and automated
 reasoning.
 
-**ANCOVA**
-
+**ANCOVA**\
 Acronym for analysis of covariance, a blend of ANOVA and regression used
 to evaluate whether population means of a dependent variable are equal
 across levels of a categorical independent variable, while statistically
 controlling for the effects of other continuous variables.
 
-**ANOVA**
-
+**ANOVA**\
 Acronym for analysis of variance, a collection of statistical models and
 procedures used to compare the means of three or more samples to
 understand if at least one sample mean is different from the others. The
 ANOVA test is given by
 $F = \frac{\text{variance between groups}}{\text{variance within groups}}$.
 
-**Bayes’ Theorem**
+**Bayes’ Theorem**\
+A mathematical formula used to determine the conditional probability of
+events. It is stated as $P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$.
 
-A mathematical formula
+**Bias**\
+A measure of the difference between the predicted values and the actual
+values, indicating systematic error in the predictions.
 
-used to determine the conditional probability of events. It is stated as
-$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$.
-
-**Bootstrap**
-
+**Bootstrap**\
 A statistical method for estimating the distribution of a statistic by
 sampling with replacement from the data, allowing estimation of the
 sampling distribution.
 
-**Box-and-Whisker Plot**
-
+**Box-and-Whisker Plot**\
 A simple way of representing statistical data on a plot where a
 rectangle represents the second and third quartiles, usually with a
 vertical line inside to indicate the median value. The lower and upper
 quartiles are shown as horizontal lines on either side of the rectangle,
 providing a visual summary of the data distribution.
 
-**Central Limit Theorem**
-
+**Central Limit Theorem**\
 A fundamental theorem in statistics stating that the distribution of the
 sample mean of a large number of independent, identically distributed
 variables will be approximately normally distributed, regardless of the
 original distribution.
 
-**Confidence Interval**
-
+**Confidence Interval**\
 A range of values that is likely to contain the true value of an unknown
 population parameter, with a specified level of confidence.
 
-**Gradient Descent**
+**Conjoint Analysis**\
+A survey-based statistical technique used in market research to
+determine how people value different features that make up an individual
+product or service.
 
+**Covariance**\
+A measure of the joint variability of two random variables, indicating
+the direction of the linear relationship between variables.
+
+**Cumulative Probability Curve**\
+A graphical representation showing the cumulative probability of
+different outcomes, often used to compare different strategies or
+decisions.
+
+**Gradient Descent**\
 An iterative optimization algorithm for finding the minimum of a
 function by moving in the direction of the steepest descent, used in
 machine learning for minimizing cost functions. The update rule for
@@ -3076,184 +3070,175 @@ $\theta_{new} = \theta_{old} - \eta \nabla_\theta J(\theta)$, where
 $\eta$ is the learning rate and $\nabla_\theta J(\theta)$ is the
 gradient of the cost function.
 
-**Hypothesis Testing**
-
+**Hypothesis Testing**\
 A method of making statistical decisions using experimental data,
 involving the formulation and testing of hypotheses to determine the
 likelihood that a given hypothesis is true. The null hypothesis is
 denoted as $H_0$ and the alternative hypothesis as $H_1$.
 
-**Inferential Statistics**
-
+**Inferential Statistics**\
 A branch of statistics that infers properties of a population, for
 example, by testing hypotheses and deriving estimates based on sample
 data.
 
-**K-Means Clustering**
-
+**K-Means Clustering**\
 A type of unsupervised learning used when you have unlabeled data,
 clustering the data into groups based on feature similarity, with the
 goal of minimizing the variance within each cluster. The objective
 function is $J = \sum_{i=1}^{k} \sum_{x \in C_i} \| x - \mu_i \|^2$.
 
-**Linear Regression**
-
+**Linear Regression**\
 A linear approach to modeling the relationship between a dependent
 variable and one or more independent variables, used to predict the
 value of the dependent variable based on the values of the independent
 variables. The model is $y = \beta_0 + \beta_1 x + \epsilon$.
 
-**Logistic Regression**
-
+**Logistic Regression**\
 A regression model where the dependent variable is categorical, used to
 model the probability of a certain class or event existing. The logistic
 function is $\sigma(z) = \frac{1}{1 + e^{-z}}$.
 
-**Markov Chains**
-
+**Markov Chains**\
 A stochastic process that undergoes transitions from one state to
 another on a state space, used to model randomly changing systems where
 it is assumed that future states depend only on the current state.
 
-**Mode**
-
+**Mode**\
 The value of the term that occurs most often in a data set, representing
 the most common observation.
 
-**Monte Carlo Simulation**
-
+**Monte Carlo Simulation**\
 A computerized mathematical technique that allows people to account for
 risk in quantitative analysis and decision making, using random sampling
 and statistical modeling to estimate the probability of different
 outcomes.
 
-**Normal Distribution**
-
+**Normal Distribution**\
 A probability distribution that is symmetric about the mean, showing
 that data near the mean are more frequent in occurrence than data far
 from the mean, often referred to as a bell curve. The probability
 density function is
 $f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}$.
 
-**Principal Component Analysis (PCA)**
-
+**Principal Component Analysis (PCA)**\
 A technique used to emphasize variation and bring out strong patterns in
 a data set, reducing the dimensionality of the data while retaining most
 of the variability. The principal components are the eigenvectors of the
 covariance matrix of the data.
 
-**ROC Curve**
+**Poisson Distribution**\
+A probability distribution that expresses the probability of a given
+number of events occurring in a fixed interval of time or space, given a
+known constant mean rate.
 
+**ROC Curve**\
 A graphical plot that illustrates the diagnostic ability of a binary
 classifier system by plotting the true positive rate against the false
 positive rate at various threshold settings.
 
-**Time Series Analysis**
+**Standard Deviation**\
+A measure of the amount of variation or dispersion of a set of values,
+indicating how spread out the values are from the mean.
 
+**Stochastic Processes**\
+Processes that are probabilistic in nature, involving the modeling of
+systems that evolve over time in a way that is not deterministic.
+
+**Time Series Analysis**\
 A method of analyzing a sequence of data points collected over time to
 identify patterns, trends, and seasonal variations.
 
-**Validation (of a Model)**
-
+**Validation (of a Model)**\
 Determining how well the model depicts the real-world situation it is
 describing, ensuring that the model accurately represents the underlying
 data and can make reliable predictions.
 
-**Variability**
-
-Describes how spread out or closely clustered a set of data is,
-indicating the degree of variation or dispersion within the data set.
-
-**Variance**
-
+**Variance**\
 A parameter in a distribution that describes how far the values are
 spread apart, measuring the degree of dispersion of data points around
 the mean. Mathematically, it is given by
 $\text{Var}(X) = \frac{\sum (x_i - \bar{x})^2}{n-1}$.
 
-**Variation Reduction**
-
+**Variation Reduction**\
 Reference to process variation where reduction leads to stable and
 predictable process results, improving the consistency and quality of
 products or services.
 
 ## **Operational Research and Optimization**
 
-**5 Whys**
-
+**5 Whys**\
 An iterative process of discovery through repetitively asking "why";
 used to explore cause and effect relationships underlying and/or leading
 to a problem, identifying the root cause of an issue.
 
-**80/20 Rule (Pareto Principle)**
-
+**80/20 Rule (Pareto Principle)**\
 The principle that roughly 80% of results come from 20% of effort,
 suggesting that a small proportion of causes often lead to a large
 proportion of effects.
 
-**Agent-Based Modeling**
-
+**Agent-Based Modeling**\
 A class of computational models for simulating the actions and
 interactions of autonomous agents to assess their effects on the system
 as a whole, often used in social sciences, economics, and biology.
 
-**Assignment Problem**
-
+**Assignment Problem**\
 A fundamental combinatorial optimization problem in operations research,
 consisting of finding a maximum-weight matching in a weighted bipartite
 graph, often used for tasks such as job assignment and resource
 allocation.
 
-**Branch-and-Bound**
-
+**Branch-and-Bound**\
 A general algorithm for finding optimal solutions of various
 optimization problems, consisting of a system enumeration of all
 candidate solutions where large subsets of fruitless candidates are
 discarded en masse using upper and lower estimated bounds of the
 quantity being optimized.
 
-**Linear Programming (LP)**
+**Game Theory**\
+The study of mathematical models of strategic interaction among rational
+decision-makers, often used in economics, political science, and
+psychology.
 
+**Integer Programming**\
+An optimization technique where some or all of the variables are
+required to be integers, used in situations where solutions need to be
+whole numbers.
+
+**Linear Programming (LP)**\
 A mathematical method for determining a way to achieve the best outcome
 (such as maximum profit or lowest cost) in a given mathematical model
 whose requirements are represented by linear relationships.
 
-**Metaheuristics**
+**Mixed Integer Programming (MIP)**\
+A type of mathematical optimization or feasibility program where some
+variables are constrained to be integers while others can be
+non-integers (continuous). MIP models are used in various fields for
+solving complex decision-making problems that involve both discrete
+decisions (such as yes/no choices) and continuous decisions (such as
+amounts of resources to allocate). The general form of a MIP problem is
+to optimize (maximize or minimize) a linear objective function subject
+to a set of linear equality and inequality constraints, where some of
+the variables are restricted to take integer values.
 
-A general framework for heuristics in solving hard problems, such as Ant
-Colony Optimization, Genetic Algorithms, Memetic Algorithms, Neural
-Networks, etc., used to find approximate solutions to complex
-optimization problems.
-
-**Network Optimization**
-
+**Network Optimization**\
 The process of striking the best possible balance between network
 performance and network costs, optimizing the design and operation of
 network systems.
 
-**Nonlinear Programming (NLP)**
-
+**Nonlinear Programming (NLP)**\
 The process of solving optimization problems where some of the
 constraints or the objective function are nonlinear.
 
-**Queueing Theory**
-
+**Queueing Theory**\
 The mathematical study of waiting lines, or queues, used to predict
 queue lengths and waiting times, helping in the design and management of
 systems where congestion and delays are common.
 
-**Simulated Annealing**
-
+**Simulated Annealing**\
 A probabilistic technique for approximating the global optimum of a
 given function, used in large optimization problems.
 
-**Stochastic Processes**
-
-Processes that are probabilistic in nature, involving the modeling of
-systems that evolve over time in a way that is not deterministic.
-
-**Vehicle Routing Problem (VRP)**
-
+**Vehicle Routing Problem (VRP)**\
 Finding optimal delivery routes from one or more depots to a set of
 geographically scattered points (e.g., population centers). A simple
 case is finding a route for snow removal, garbage collection, or street
@@ -3262,57 +3247,63 @@ problem). In its most complex form, the VRP is a generalization of the
 TSP, as it can include additional time and capacity constraints,
 precedence constraints, and more.
 
-**Simulation Modeling**
-
+**Simulation Modeling**\
 A method of creating a digital twin or virtual representation of a
 system to study its behavior and evaluate the impact of different
 scenarios and decisions.
 
 ## **Financial and Accounting Terms**
 
-**Amortization**
-
+**Amortization**\
 The allocation of the cost of an item or items over a period such that
 the actual cost is recovered, often used to account for capital
 expenditures, allowing for the gradual write-off of the cost over its
 useful life.
 
+**Break-Even Analysis**\
+A determination of the point at which revenue received equals the costs
+associated with receiving the revenue, used to understand when an
+investment will start to be profitable.
+
+**Fixed Cost**\
+A cost that does not change with an increase or decrease in the amount
+of goods or services produced, such as rent, salaries, and insurance.
+
 ## **Quality and Process Improvement**
 
-**5S**
-
+**5S**\
 A workplace organization method promoting efficiency and effectiveness;
 five terms based on Japanese words: sorting, set in order, systematic
 cleaning, standardizing, and sustaining, aimed at creating a clean and
 organized work environment.
 
-**Batch Production**
-
+**Batch Production**\
 A method of production where components are produced in groups rather
 than a continual stream of production; see also, Continuous Production.
 This allows for the efficient production of multiple items with similar
 requirements.
 
-**Kaizen**
-
+**Kaizen**\
 A Japanese term meaning "change for better" or "continuous improvement",
 referring to activities that continuously improve all functions and
 involve all employees from the CEO to the assembly line workers.
 
-**Root Cause Analysis (RCA)**
-
+**Root Cause Analysis (RCA)**\
 A method of problem-solving used for identifying the root causes of
 faults or problems, aiming to correct or eliminate these causes to
 prevent recurrence.
 
-**Total Quality Management (TQM)**
+**Six Sigma**\
+A set of techniques and tools for process improvement, aiming to reduce
+the probability of defect or variation in manufacturing and business
+processes.
 
+**Total Quality Management (TQM)**\
 A management approach to long-term success through customer
 satisfaction, based on the participation of all members of an
 organization in improving processes, products, services, and culture.
 
-**Yield**
-
+**Yield**\
 The percentage of ‘good’ product in a batch; has three main components:
 functional (defect driven), parametric (performance driven), and
 production efficiency/equipment utilization. This metric is used to
@@ -3320,41 +3311,44 @@ measure the efficiency and quality of the production process.
 
 ## **Software Development and Validation**
 
-**Agile Methodology**
-
+**Agile Methodology**\
 A project management and software development approach that helps teams
 deliver value to their customers faster and with fewer headaches by
 providing a framework for developing, delivering, and sustaining complex
 products.
 
-**DevOps**
+**Continuous Integration (CI)**\
+A software development practice where developers frequently integrate
+their code into a shared repository, often leading to automated builds
+and tests to detect errors early.
 
+**DevOps**\
 A set of practices that combines software development (Dev) and IT
 operations (Ops), aiming to shorten the systems development life cycle
 and provide continuous delivery with high software quality.
 
-**Unit Testing**
+**Scrum**\
+An agile framework for managing complex projects, typically used in
+software development, characterized by iterative progress through
+sprints and regular feedback.
 
-A software testing method where individual units or
+**Unit Testing**\
+A software testing method where individual units or components of a
+software are tested. The purpose is to validate that each unit of the
+software performs as expected.
 
-components of a software are tested. The purpose is to validate that
-each unit of the software performs as expected.
-
-**User Acceptance Testing (UAT)**
-
+**User Acceptance Testing (UAT)**\
 The process of verifying that a solution works for the user, performed
 by the client to ensure the system meets their requirements and is ready
 for use.
 
-**Verification (of a Model)**
-
+**Verification (of a Model)**\
 Includes all the activities associated with producing high-quality
 software: testing, inspection, design analysis, specification analysis.
 This ensures that the model accurately represents the intended design
 and requirements.
 
-**Web Analytics**
-
+**Web Analytics**\
 The ability to use data generated through Internet-based activities;
 typically used to assess customer behaviors. Web analytics helps
 businesses understand how users interact with their websites and online
