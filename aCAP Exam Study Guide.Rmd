@@ -8053,7 +8053,7 @@ every car sold. The development costs and the wholesale price, in
 thousands of dollars, of the cars are shown in the table below:
 
 ```{r, echo=FALSE}
-knitr::include_graphics("q35.png")
+knitr::include_graphics("images/q35.png")
 ```
 
 How large a subsidy per vehicle sold will be required, assuming there
@@ -8482,7 +8482,7 @@ expected travel time (in hours) of the optimal (minimum travel time)
 decision?
 
 ```{r, echo=FALSE}
-knitr::include_graphics("q45.png")
+knitr::include_graphics("images/q45.png")
 ```
 
 a.  7.8
@@ -8623,7 +8623,7 @@ effectively, optimizing marketing efforts.
 In the diagram below, what is true of Strategy B compared to Strategy A?
 
 ```{r, echo=FALSE}
-knitr::include_graphics("q48.png")
+knitr::include_graphics("images/q48.png")
 ```
 
 a.  Strategy B exhibits stochastic (probabilistic) dominance over
