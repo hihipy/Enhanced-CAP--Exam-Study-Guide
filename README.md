@@ -1,10 +1,10 @@
-# Enhanced-aCAP-Exam-Study-Guide
+# Enhanced-CAP®-Exam-Study-Guide
 
-This repository contains an enhanced version of the aCAP Exam Study Guide. It is designed to help candidates prepare for the Associate Certified Analytics Professional (aCAP) exam by providing detailed notes, explanations, and resources for each domain covered in the exam. The guide includes comprehensive explanations, examples, and references to help understand the key concepts required for the exam.
+This repository contains an enhanced version of the CAP® Exam Study Guide. It is designed to help candidates prepare for the Certified Analytics Professional (CAP®) exam by providing detailed notes, explanations, and resources for each domain covered in the exam. The guide includes comprehensive explanations, examples, and references to help understand the key concepts required for the exam.
 
 ## Features
 
-- Detailed coverage of all domains in the aCAP exam
+- Detailed coverage of all domains in the CAP® exam
 - Expanded notes with in-depth explanations and examples
 - References to additional reading materials
 - Visual aids and tables for easy understanding
@@ -31,11 +31,11 @@ This repository contains an enhanced version of the aCAP Exam Study Guide. It is
 
 ## Usage
 
-This study guide is intended for personal use in preparing for the aCAP exam. It should be used in conjunction with official [INFORMS](https://www.informs.org/) materials and other reputable study resources. The guide provides a comprehensive overview but does not guarantee exam success on its own.
+This study guide is intended for personal use in preparing for the CAP® exam. It should be used in conjunction with official [INFORMS](https://www.informs.org/) materials and other reputable study resources. The guide provides a comprehensive overview but does not guarantee exam success on its own.
 
 ## Acknowledgements
 
-This study guide enhances and builds upon publicly available resources, including the INFORMS aCAP exam guidelines. Special thanks to INFORMS, ChatGPT, Claude, and Gemini for their contributions and insights. This guide is intended for educational and personal use only and is not for sale.
+This study guide enhances and builds upon publicly available resources, including the INFORMS CAP® exam guidelines. Special thanks to INFORMS, ChatGPT, Claude, and Gemini for their contributions and insights. This guide is intended for educational and personal use only and is not for sale.
 
 ## License
 
@@ -65,4 +65,4 @@ For more details, see the [LICENSE](https://creativecommons.org/licenses/by-nc-s
 
 ## Disclaimer
 
-This study guide does not guarantee passing the aCAP exam. It is recommended to use official INFORMS resources and other reputable study materials in addition to this guide. All trademarks and service marks referenced are property of their respective owners.
+This study guide does not guarantee passing the CAP® exam. It is recommended to use official INFORMS resources and other reputable study materials in addition to this guide. All trademarks and service marks referenced are property of their respective owners.
