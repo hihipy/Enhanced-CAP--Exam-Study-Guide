@@ -1,7 +1,7 @@
 ---
 title: "aCAP Exam Study Guide"
 author: "Philip Bachas-Daunert"
-date: "Most Recent Generation: `r Sys.Date()`"
+date: "Most Recent Generation: `r format(Sys.Date(), '%A, %B %d, %Y')`"
 output: 
   html_document: 
     theme: readable
@@ -15089,6 +15089,9 @@ medical images with limited labeled data.
 -   **Description:** The nth root of the product of n numbers.
 -   **Formula:**
     $G = \sqrt[n]{x_1 x_2 \cdots x_n} = \left(\prod_{i=1}^n x_i\right)^{\frac{1}{n}}$
+    -   $G$: Geometric mean
+    -   $x_i$: Each individual value
+    -   $n$: Number of values
 -   **Good:** Useful for calculating average growth rates or returns.
 -   **Bad:** Only applicable to positive numbers; sensitive to very
     small values.
@@ -15100,9 +15103,10 @@ medical images with limited labeled data.
 ### Median
 
 -   **Description:** The middle value in a sorted list of numbers.
--   **Formula:**
-    -   For odd $n$: Middle value.
-    -   For even $n$: Average of two middle values.
+-   **Formula:** For odd $n$: $x_{(\frac{n+1}{2})}$ For even $n$:
+    $\frac{x_{(\frac{n}{2})} + x_{(\frac{n}{2}+1)}}{2}$
+    -   $x_{(i)}$: i-th order statistic
+    -   $n$: Number of values
 -   **Good:** Robust to outliers; better for skewed distributions.
 -   **Bad:** Less informative for perfectly symmetric distributions.
 -   **Detailed explanation:** The median is less affected by extreme
@@ -15114,7 +15118,9 @@ medical images with limited labeled data.
 ### Mode
 
 -   **Description:** The most frequent value in a dataset.
--   **Formula:** Value with highest frequency.
+-   **Formula:** $\arg\max_x f(x)$
+    -   $f(x)$: Frequency function of the dataset
+    -   $x$: Value in the dataset
 -   **Good:** Useful for categorical data and discrete numerical data.
 -   **Bad:** Can be misleading for continuous data; multiple modes
     possible.
@@ -15300,16 +15306,37 @@ medical images with limited labeled data.
 
 -   **Description:** Probability of obtaining results at least as
     extreme as observed, assuming null hypothesis is true.
--   **Formula:** Varies by test.
+
+-   **Formula:** General form: $p = P(T \geq t | H_0)$ Where:
+
+    -   $T$: Test statistic
+    -   $t$: Observed value of the test statistic
+    -   $H_0$: Null hypothesis
+
+    Specific formulas:
+
+    -   For z-test: $p = 2 \times (1 - \Phi(|z|))$
+    -   For t-test: $p = 2 \times (1 - F_{t(df)}(|t|))$
+    -   For chi-square test: $p = 1 - F_{\chi^2(df)}(\chi^2)$ Where:
+    -   $\Phi$: Standard normal cumulative distribution function
+    -   $F_{t(df)}$: t-distribution cumulative distribution function
+        with df degrees of freedom
+    -   $F_{\chi^2(df)}$: Chi-square distribution cumulative
+        distribution function with df degrees of freedom
+
 -   **Good:** \< 0.05 or 0.01 (depending on field) for statistical
     significance.
+
 -   **Bad:** \> 0.05 or 0.01 suggests lack of statistical significance.
+
 -   **Detailed explanation:** Small p-values suggest strong evidence
     against the null hypothesis, but should be interpreted in context of
     effect size and practical significance. It's important to note that
     p-values don't measure the size or importance of an effect. They're
     often misinterpreted as the probability that the null hypothesis is
-    true, which is incorrect.
+    true, which is incorrect. The specific calculation of the p-value
+    depends on the test statistic and its distribution under the null
+    hypothesis.
 
 ### Confidence Interval
 
@@ -15503,13 +15530,34 @@ medical images with limited labeled data.
 
 -   **Description:** Measure of model's ability to distinguish between
     classes.
--   **Formula:** Area under the ROC curve.
+
+-   **Formula:** $AUC = \int_0^1 TPR(FPR^{-1}(t)) dt$ Where:
+
+    -   $TPR$: True Positive Rate (Sensitivity)
+    -   $FPR$: False Positive Rate (1 - Specificity)
+    -   $t$: Threshold
+
+    Alternatively, for empirical data:
+    $AUC \approx \frac{\sum_{i=1}^{n_1} \sum_{j=1}^{n_2} I(x_i > y_j)}{n_1 n_2}$
+    Where:
+
+    -   $x_i$: Predicted probability for positive instance i
+    -   $y_j$: Predicted probability for negative instance j
+    -   $n_1$: Number of positive instances
+    -   $n_2$: Number of negative instances
+    -   $I$: Indicator function (1 if argument is true, 0 otherwise)
+
 -   **Good:** \> 0.8 (excellent), 0.7-0.8 (good).
+
 -   **Bad:** Close to 0.5 (no better than random guessing).
+
 -   **Detailed explanation:** Represents model's ability to discriminate
     between classes across all possible classification thresholds.
     Insensitive to class imbalance. A perfect model has an AUC of 1,
-    while a model with no discriminative power has an AUC of 0.5.
+    while a model with no discriminative power has an AUC of 0.5. The
+    AUC can be interpreted as the probability that a randomly chosen
+    positive instance is ranked higher than a randomly chosen negative
+    instance.
 
 ### Mean Squared Error (MSE)
 
@@ -15599,16 +15647,42 @@ medical images with limited labeled data.
 
 -   **Description:** Combines autoregression, differencing, and moving
     average components.
--   **Formula:** Complex, involves AR, differencing, and MA terms.
+
+-   **Formula:** ARIMA(p,d,q) model:
+    $\phi(B)(1-B)^d X_t = \theta(B)\varepsilon_t$ Where:
+
+    -   $\phi(B) = 1 - \phi_1B - \phi_2B^2 - ... - \phi_pB^p$ (AR
+        component)
+    -   $\theta(B) = 1 + \theta_1B + \theta_2B^2 + ... + \theta_qB^q$
+        (MA component)
+    -   $B$ is the backshift operator: $BX_t = X_{t-1}$
+    -   $(1-B)^d$ represents d-times differencing
+    -   $X_t$ is the time series
+    -   $\varepsilon_t$ is white noise
+
+    Expanded form:
+    $X_t = c + \phi_1X_{t-1} + ... + \phi_pX_{t-p} - \theta_1\varepsilon_{t-1} - ... - \theta_q\varepsilon_{t-q} + \varepsilon_t$
+    Where:
+
+    -   $c$ is a constant
+    -   $\phi_i$ are the parameters of the AR component
+    -   $\theta_i$ are the parameters of the MA component
+
 -   **Good:** AIC/BIC lower than simpler models, residuals resembling
     white noise.
+
 -   **Bad:** Complex to implement and requires careful parameter
     selection.
+
 -   **Detailed explanation:** Used for time series forecasting. ARIMA
     model orders are usually represented as (p, d, q) where p is the
     number of lag observations, d is the degree of differencing, and q
     is the size of the moving average window. Selection of appropriate
-    orders often involves analyzing ACF and PACF plots.
+    orders often involves analyzing ACF and PACF plots. The AR component
+    models the variable of interest using its own lagged values, the I
+    component makes the data stationary through differencing, and the MA
+    component models the error term as a linear combination of error
+    terms occurring contemporaneously and at various times in the past.
 
 ## **Advanced Analytics**
 
@@ -15651,8 +15725,11 @@ medical images with limited labeled data.
 
 -   **Description:** Tree-like model of decisions and their possible
     consequences.
--   **Formula:** Recursive partitioning of feature space based on
-    information gain or Gini impurity.
+-   **Formula:** Gini impurity: $2p(1-p)$ Information gain:
+    $H(T) - \sum_{v \in \text{values}(a)} \frac{|T_v|}{|T|} H(T_v)$
+    -   $p$: Proportion of positive class in a node
+    -   $H(T)$: Entropy of set T
+    -   $T_v$: Subset of T where attribute a has value v
 -   **Good:** Easy to interpret, handles non-linear relationships.
 -   **Bad:** Prone to overfitting, can be unstable.
 -   **Detailed explanation:** Splits data based on feature values to
@@ -15664,8 +15741,10 @@ medical images with limited labeled data.
 ### Random Forest
 
 -   **Description:** Ensemble method of decision trees.
--   **Formula:** Aggregates predictions from multiple trees, often using
-    bagging and random feature selection.
+-   **Formula:** Regression: $\frac{1}{B} \sum_{b=1}^B f_b(x)$
+    Classification: $\text{mode}\{f_b(x)\}_{b=1}^B$
+    -   $B$: Number of trees
+    -   $f_b(x)$: Prediction of the b-th tree
 -   **Good:** Reduces overfitting, handles high-dimensional data well.
 -   **Bad:** Less interpretable than single decision trees,
     computationally intensive.
