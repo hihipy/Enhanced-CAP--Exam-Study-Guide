@@ -21,8 +21,6 @@ editor_options:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-# Load necessary libraries for data manipulation, visualization, and modeling
-
 # Visualization
 library(ggplot2)  # For creating static visualizations
 library(plotly)  # For creating interactive visualizations
@@ -32,6 +30,7 @@ library(ggridges)  # For creating ridge plots
 library(rpart.plot)  # For visualizing decision trees
 library(viridis)  # For colorblind-friendly palettes
 library(dendextend) # Plot hierarchical clustering dendrogram rotated
+library(treemapify) # For creating treemaps
 
 # Data Manipulation
 library(dplyr)  # For data manipulation and wrangling
@@ -42,10 +41,6 @@ library(scales)  # For scaling data
 # Clustering and Dimensionality Reduction
 library(cluster)  # For clustering algorithms
 library(Rtsne)  # For t-Distributed Stochastic Neighbor Embedding (t-SNE)
-
-# Time Series Analysis
-library(forecast)  # For forecasting time series data
-library(tseries)  # For time series analysis
 
 # Statistical Analysis
 library(MASS)  # For statistical functions and datasets
