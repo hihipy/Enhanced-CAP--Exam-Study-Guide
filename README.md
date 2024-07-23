@@ -33,6 +33,72 @@ This repository contains an enhanced version of the CAP® Exam Study Guide. It i
 
 This study guide is intended for personal use in preparing for the CAP® exam. It should be used in conjunction with official [INFORMS](https://www.informs.org/) materials and other reputable study resources. The guide provides a comprehensive overview but does not guarantee exam success on its own.
 
+## How to Use the PDF Output Configuration
+
+If you want to generate a PDF output from this R Markdown file, follow these steps:
+
+1. Open your R Markdown file in RStudio or your preferred R Markdown editor.
+
+2. At the very top of your R Markdown file, you'll see a section enclosed by three dashes (`---`) at the top and bottom. This is called the YAML header.
+
+3. Replace the existing YAML header with the following configuration:
+
+   ```yaml
+   ---
+   title: "Enhanced CAP® Exam Study Guide"
+   author: "Philip Bachas-Daunert"
+   date: "Most Recent Generation: `r format(Sys.Date(), '%A, %B %d, %Y')`"
+   output: 
+     pdf_document:
+       toc: yes
+       toc_depth: 2
+       number_sections: true
+       fig_caption: yes
+       highlight: tango
+       keep_tex: yes
+       latex_engine: xelatex
+   header-includes:
+      - \usepackage{float}
+      - \floatplacement{figure}{H}
+      - \usepackage{afterpage}
+      - \AfterEndEnvironment{toc}{\afterpage{\null\newpage}}
+      - \usepackage{titlesec}
+      - \newcommand{\sectionbreak}{\clearpage}
+   geometry: margin=1in
+   fontsize: 11pt
+   mainfont: Arial
+   monofont: Courier
+   ---
+   ```
+
+4. Make sure to copy the entire block, including the opening and closing `---` lines.
+
+5. You can customize the following fields if needed:
+   - `title`: Change this to your preferred title.
+   - `author`: Replace with your name.
+   - `toc_depth`: Adjust this number to control how many levels of headers are included in the table of contents.
+   - `fontsize`: Change the font size if desired.
+   - `mainfont` and `monofont`: Change these to your preferred fonts.
+
+6. Save your R Markdown file after making these changes.
+
+7. To generate the PDF:
+   - If using RStudio: Click the "Knit" button at the top of the editor and select "Knit to PDF".
+   - If using command line: Use the command `rmarkdown::render("your_file.Rmd", output_format = "pdf_document")`.
+
+8. The PDF will be generated in the same directory as your R Markdown file.
+
+This configuration will create a PDF with the following features:
+- A title page with the specified title, author, and date.
+- A table of contents on a separate page.
+- Each main section (Header 1) starting on a new page.
+- Numbered sections.
+- Figure captions enabled.
+- Code highlighting using the "tango" theme.
+- 1-inch margins and 11pt font size.
+
+Note: You may need to install additional LaTeX packages if you encounter any errors during PDF generation. RStudio usually prompts you to install these automatically.
+
 ## Acknowledgements
 
 This study guide enhances and builds upon publicly available resources, including the INFORMS CAP® exam guidelines. Special thanks to INFORMS, ChatGPT, Claude, and Gemini for their contributions and insights. This guide is intended for educational and personal use only and is not for sale.
