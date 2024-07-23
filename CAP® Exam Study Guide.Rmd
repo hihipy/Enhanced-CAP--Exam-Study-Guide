@@ -31,6 +31,7 @@ library(GGally)  # For creating pair plots and other GGplot2 extensions
 library(ggridges)  # For creating ridge plots
 library(rpart.plot)  # For visualizing decision trees
 library(viridis)  # For colorblind-friendly palettes
+library(dendextend) # Plot hierarchical clustering dendrogram rotated
 
 # Data Manipulation
 library(dplyr)  # For data manipulation and wrangling
@@ -13895,7 +13896,7 @@ duration.
 
 ------------------------------------------------------------------------
 
-## **Domain IV - Methodology (Approach) Selection**
+## **Domain IV - Methodology Selection**
 
 ### Agent-Based Modeling
 
@@ -15670,6 +15671,8 @@ medical images with limited labeled data.
     often considered outliers. It's particularly useful for skewed
     distributions where standard deviation might be misleading.
 
+------------------------------------------------------------------------
+
 ## **Inferential Statistics**
 
 ### Z-score
@@ -15799,6 +15802,8 @@ medical images with limited labeled data.
     sample size, variability in the data, and chosen confidence level.
     Higher confidence levels result in wider intervals.
 
+------------------------------------------------------------------------
+
 ## **Correlation and Regression**
 
 ### Pearson Correlation Coefficient
@@ -15914,6 +15919,8 @@ medical images with limited labeled data.
     The logit transformation allows modeling of probabilities as a
     linear function of predictors. Coefficients represent the change in
     log-odds for a one-unit change in the predictor.
+
+------------------------------------------------------------------------
 
 ## **Machine Learning Metrics**
 
@@ -16031,6 +16038,8 @@ medical images with limited labeled data.
     Represents average error magnitude. MAE is more interpretable than
     MSE as it's in the same units as the target variable.
 
+------------------------------------------------------------------------
+
 ## **Time Series Analysis**
 
 ### Autocorrelation
@@ -16124,6 +16133,8 @@ medical images with limited labeled data.
     component makes the data stationary through differencing, and the MA
     component models the error term as a linear combination of error
     terms occurring contemporaneously and at various times in the past.
+
+------------------------------------------------------------------------
 
 ## **Advanced Analytics**
 
@@ -16298,6 +16309,79 @@ medical images with limited labeled data.
     and Ridge regression. It can perform feature selection like Lasso
     while still maintaining Ridge's ability to handle correlated
     predictors.
+
+------------------------------------------------------------------------
+
+## **Model Lifecycle Management**
+
+### Kolmogorov-Smirnov Test for Data Drift
+
+-   **Description:** Measures the maximum distance between the
+    cumulative distribution functions of two samples.
+-   **Formula:** $D_{n,m} = \sup_x |F_{1,n}(x) - F_{2,m}(x)|$
+    -   $D_{n,m}$: K-S test statistic
+    -   $F_{1,n}$: Empirical distribution function of first sample
+    -   $F_{2,m}$: Empirical distribution function of second sample
+    -   $\sup_x$: Supremum over all x
+-   **Good:** Large values indicate significant drift between
+    distributions.
+-   **Bad:** Small values suggest distributions are similar.
+-   **Detailed explanation:** Used to detect changes in data
+    distribution over time. Compares the distribution of recent data to
+    a reference distribution. Useful for continuous monitoring of model
+    inputs to detect when retraining might be necessary.
+
+### Model Performance Decay
+
+-   **Description:** Measures the rate at which a model's performance
+    deteriorates over time.
+-   **Formula:**
+    $\text{Decay Rate} = \frac{M_t - M_{t-1}}{M_{t-1}} \times 100\%$
+    -   $M_t$: Metric value at time t
+    -   $M_{t-1}$: Metric value at previous time period
+-   **Good:** Values close to 0 indicate stable performance.
+-   **Bad:** Large negative values suggest rapid performance
+    degradation.
+-   **Detailed explanation:** Tracks how quickly a model's performance
+    is declining. Can be calculated using various performance metrics
+    like accuracy, F1-score, or AUC-ROC. Helps in determining when model
+    retraining or recalibration is necessary. The metric M can represent
+    any chosen performance measure, allowing flexibility in assessing
+    different aspects of model performance over time.
+
+### Brier Score for Model Calibration
+
+-   **Description:** Measures the accuracy of probabilistic predictions.
+-   **Formula:** $BS = \frac{1}{N} \sum_{i=1}^N (f_i - o_i)^2$
+    -   $BS$: Brier Score
+    -   $f_i$: Forecasted probability
+    -   $o_i$: Actual outcome (0 or 1)
+    -   $N$: Number of forecasts
+-   **Good:** Close to 0 (perfect calibration).
+-   **Bad:** Close to 1 (poor calibration).
+-   **Detailed explanation:** Used to assess the calibration of
+    probability forecasts. Lower scores indicate better calibrated
+    models. Particularly useful for binary classification problems where
+    the model outputs probabilities.
+
+### Return on Investment (ROI) for Model Deployment
+
+-   **Description:** Measures the financial return of a model relative
+    to its cost.
+-   **Formula:**
+    $ROI = \frac{\text{Benefits} - \text{Costs}}{\text{Costs}} \times 100\%$
+    -   Benefits: Financial gains from model deployment
+    -   Costs: Total costs associated with model development and
+        deployment
+-   **Good:** Higher values indicate better return on investment.
+-   **Bad:** Negative values suggest the model costs more than it
+    returns.
+-   **Detailed explanation:** Helps in justifying the ongoing use and
+    maintenance of a model. Benefits can include increased revenue, cost
+    savings, or other quantifiable business improvements. Costs should
+    include development, deployment, and ongoing maintenance expenses.
+
+------------------------------------------------------------------------
 
 ## **Probability Distributions**
 
@@ -16839,13 +16923,37 @@ data <- data.frame(
   date = seq(as.Date("2020-01-01"), by = "month", length.out = 36),
   value = sin(1:36 / 2) + rnorm(36, mean = 0, sd = 0.5)
 )
-data$month <- format(data$date, "%b")
+
+data$month <- factor(
+  format(data$date, "%b"),
+  levels = c(
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  )
+)
 
 # Seasonal plot
-ggplot(data, aes(x = date, y = value, color = month)) +
+ggplot(data, aes(
+  x = month,
+  y = value,
+  group = format(date, "%Y"),
+  color = factor(format(date, "%Y"))
+)) +
   geom_line() +
-  scale_color_brewer(palette = "Set2") +
-  labs(title = "Seasonal Plot", x = "Date", y = "Value")
+  scale_color_brewer(palette = "Set2", name = "Year") +
+  labs(title = "Seasonal Plot", x = "Month", y = "Value") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 ------------------------------------------------------------------------
@@ -16870,9 +16978,9 @@ ggplot(data, aes(x = date, y = value)) +
 ### Hierarchical Clustering Dendrogram
 
 ```{r hierarchical_clustering, fig.cap="Hierarchical clustering dendrogram. Use this to visualize the nested structure of clusters. The height of each branch represents the distance between clusters. Look for natural divisions in the data and potential subclusters. Cutting the dendrogram at different heights results in different numbers of clusters."}
-# Generate sample data with columns 'x' and 'y'
+# Generate simplified sample data with columns 'x' and 'y'
 set.seed(123)
-data <- data.frame(x = c(rnorm(50, mean = 0, sd = 0.5), rnorm(50, mean = 2, sd = 0.5)), y = c(rnorm(50, mean = 0, sd = 0.5), rnorm(50, mean = 2, sd = 0.5)))
+data <- data.frame(x = c(rnorm(20, mean = 0, sd = 0.5), rnorm(20, mean = 2, sd = 0.5)), y = c(rnorm(20, mean = 0, sd = 0.5), rnorm(20, mean = 2, sd = 0.5)))
 
 # Compute distance matrix
 dist_matrix <- dist(data)
@@ -16880,14 +16988,16 @@ dist_matrix <- dist(data)
 # Perform hierarchical clustering
 hclust_result <- hclust(dist_matrix, method = "ward.D2")
 
-# Plot hierarchical clustering dendrogram
-plot(
-  hclust_result,
-  main = "Hierarchical Clustering Dendrogram",
-  xlab = "",
-  sub = "",
-  col = "#0072B2"
-)
+# Convert hclust to a dendrogram and customize
+dend <- as.dendrogram(hclust_result)
+dend <- set(dend, "branches_k_color", k = 4)
+dend <- set(dend, "labels_cex", 1.2) # Increase label size
+dend <- set(dend, "labels_col", value = "black")
+dend <- set(dend, "branches_lwd", 1.5)
+
+# Plot the customized dendrogram rotated
+par(mar = c(5, 5, 2, 10)) # Adjust margins
+plot(dend, main = "Hierarchical Clustering Dendrogram", horiz = TRUE)
 ```
 
 ------------------------------------------------------------------------
@@ -16916,10 +17026,22 @@ ggplot(data, aes(x = x, y = y, color = cluster)) +
 ### Silhouette Plot
 
 ```{r silhouette_plot, fig.cap="Silhouette plot for clustering evaluation. Use this to assess the quality of clusters. Each bar represents an observation, and the width shows how well it fits into its assigned cluster. Look for consistently high silhouette widths (close to 1) within clusters, indicating well-separated and cohesive clusters."}
-sil <- cluster::silhouette(kmeans_result$cluster, dist_matrix)
+# Generate sample data with columns 'x' and 'y'
+set.seed(123)
+data <- data.frame(x = c(rnorm(20, mean = 0, sd = 0.5), rnorm(20, mean = 2, sd = 0.5)), y = c(rnorm(20, mean = 0, sd = 0.5), rnorm(20, mean = 2, sd = 0.5)))
+
+# Compute distance matrix
+dist_matrix <- dist(data)
+
+# Perform k-means clustering
+set.seed(123)
+kmeans_result <- kmeans(data, centers = 2)
+
+# Compute silhouette values
+sil <- silhouette(kmeans_result$cluster, dist_matrix)
 
 # Plot silhouette plot
-plot(sil, main = "Silhouette Plot", col = viridis::viridis(2))
+plot(sil, main = "Silhouette Plot", col = viridis(2))
 ```
 
 ------------------------------------------------------------------------
@@ -16965,11 +17087,27 @@ data <- data.frame(x1 = rnorm(100),
 # Fit decision tree
 tree_model <- rpart(y ~ ., data = data, method = "class")
 
-# Plot decision tree
+# Plot decision tree with improved text legibility
 rpart.plot(
   tree_model,
   main = "Decision Tree",
-  box.palette = list("#0072B2", "#56B4E9", "#D55E00")
+  box.palette = list("#FFFFFF", "#56B4E9", "#D55E00"),
+  # Lighter colors for better contrast
+  col = "black",
+  # Default text color
+  fallen.leaves = TRUE,
+  branch = 0.3,
+  faclen = 0,
+  # Don't abbreviate factor levels
+  extra = 101,
+  # Display all information
+  under = TRUE,
+  # Write text under the boxes
+  varlen = 0,
+  # Don't abbreviate variable names
+  shadow.col = "gray",
+  # Add shadows for depth
+  tweak = 1.2  # Increase space between nodes
 )
 ```
 
