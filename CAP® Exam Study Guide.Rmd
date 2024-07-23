@@ -15509,6 +15509,8 @@ medical images with limited labeled data.
     skewed by outliers. It's widely used in statistical analyses and
     forms the basis for many advanced techniques.
 
+------------------------------------------------------------------------
+
 ### Weighted Mean
 
 -   **Description:** Average that takes into account the importance of
@@ -15526,6 +15528,8 @@ medical images with limited labeled data.
     not all data points are equally important, such as in portfolio
     analysis or when dealing with data of varying quality or relevance.
 
+------------------------------------------------------------------------
+
 ### Geometric Mean
 
 -   **Description:** The nth root of the product of n numbers.
@@ -15542,6 +15546,8 @@ medical images with limited labeled data.
     investment returns over multiple periods. It's less affected by
     extreme values compared to the arithmetic mean.
 
+------------------------------------------------------------------------
+
 ### Median
 
 -   **Description:** The middle value in a sorted list of numbers.
@@ -15557,6 +15563,8 @@ medical images with limited labeled data.
     outliers, the median often provides a better measure of central
     tendency than the mean.
 
+------------------------------------------------------------------------
+
 ### Mode
 
 -   **Description:** The most frequent value in a dataset.
@@ -15571,6 +15579,8 @@ medical images with limited labeled data.
     it's often more useful to consider modal intervals rather than
     single values. Bimodal or multimodal distributions can provide
     insights into the underlying structure of the data.
+
+------------------------------------------------------------------------
 
 ### Variance
 
@@ -15590,6 +15600,8 @@ medical images with limited labeled data.
     sensitive to outliers. The denominator n-1 is used for sample
     variance to provide an unbiased estimate of population variance.
 
+------------------------------------------------------------------------
+
 ### Standard Deviation
 
 -   **Description:** Square root of variance, measuring spread in
@@ -15608,6 +15620,8 @@ medical images with limited labeled data.
     within one standard deviation of the mean, 95% within two standard
     deviations, and 99.7% within three standard deviations.
 
+------------------------------------------------------------------------
+
 ### Coefficient of Variation
 
 -   **Description:** Relative standard deviation, allowing comparison
@@ -15624,6 +15638,8 @@ medical images with limited labeled data.
     10% or less is generally considered good, while a CV of 30% or more
     indicates high variability.
 
+------------------------------------------------------------------------
+
 ### Skewness
 
 -   **Description:** Measure of asymmetry in data distribution.
@@ -15639,6 +15655,8 @@ medical images with limited labeled data.
     tail; negative skewness indicates a long left tail. Skewness affects
     the reliability of the mean as a measure of central tendency. For
     skewed distributions, median and mode are often more informative.
+
+------------------------------------------------------------------------
 
 ### Kurtosis
 
@@ -15657,6 +15675,8 @@ medical images with limited labeled data.
     Low kurtosis suggests light tails or lack of outliers. The "-3" in
     the formula is to make the kurtosis of a normal distribution equal
     to zero.
+
+------------------------------------------------------------------------
 
 ### Interquartile Range (IQR)
 
@@ -15693,6 +15713,8 @@ medical images with limited labeled data.
     of the data falls within one standard deviation of the mean, 95%
     within two, and 99.7% within three.
 
+------------------------------------------------------------------------
+
 ### t-statistic
 
 -   **Description:** Difference between sample mean and population mean
@@ -15712,6 +15734,8 @@ medical images with limited labeled data.
     increases. For small samples, it has heavier tails than the normal
     distribution, reflecting the increased uncertainty.
 
+------------------------------------------------------------------------
+
 ### Chi-square statistic
 
 -   **Description:** Measure of deviation between observed and expected
@@ -15730,6 +15754,8 @@ medical images with limited labeled data.
     As sample size increases, the chi-square distribution approaches a
     normal distribution.
 
+------------------------------------------------------------------------
+
 ### F-statistic
 
 -   **Description:** Ratio of two variances.
@@ -15745,6 +15771,8 @@ medical images with limited labeled data.
     right-skewed. In ANOVA, it's used to test if the means of several
     groups are all equal. In regression, it tests whether a proposed
     regression model fits the data well.
+
+------------------------------------------------------------------------
 
 ### p-value
 
@@ -15781,6 +15809,8 @@ medical images with limited labeled data.
     true, which is incorrect. The specific calculation of the p-value
     depends on the test statistic and its distribution under the null
     hypothesis.
+
+------------------------------------------------------------------------
 
 ### Confidence Interval
 
@@ -15826,6 +15856,8 @@ medical images with limited labeled data.
     relationships. A correlation of 0 doesn't imply no relationship,
     just no linear relationship.
 
+------------------------------------------------------------------------
+
 ### Spearman Rank Correlation
 
 -   **Description:** Measure of monotonic relationship between two
@@ -15842,6 +15874,8 @@ medical images with limited labeled data.
     between two variables can be described using a monotonic function.
     Unlike Pearson correlation, it does not require the relationship to
     be linear.
+
+------------------------------------------------------------------------
 
 ### R-squared (Coefficient of Determination)
 
@@ -15863,6 +15897,8 @@ medical images with limited labeled data.
     selection. It doesn't indicate whether the independent variables are
     a cause of the changes in the dependent variable.
 
+------------------------------------------------------------------------
+
 ### Simple Linear Regression
 
 -   **Description:** Model linear relationship between two variables.
@@ -15880,6 +15916,8 @@ medical images with limited labeled data.
     homoscedasticity, and normality of residuals. The slope $\beta_1$
     represents the change in y for a one-unit change in x. The model is
     fitted by minimizing the sum of squared residuals.
+
+------------------------------------------------------------------------
 
 ### Multiple Linear Regression
 
@@ -15901,6 +15939,8 @@ medical images with limited labeled data.
     Multicollinearity among predictors can lead to unstable and
     unreliable estimates of coefficients. The adjusted R-squared
     penalizes the addition of unnecessary variables.
+
+------------------------------------------------------------------------
 
 ### Logistic Regression
 
@@ -15936,6 +15976,8 @@ medical images with limited labeled data.
     misleading for imbalanced datasets. Should be used in conjunction
     with other metrics for a more complete picture of model performance.
 
+------------------------------------------------------------------------
+
 ### Precision
 
 -   **Description:** Proportion of true positive predictions among all
@@ -15948,6 +15990,8 @@ medical images with limited labeled data.
     is high. Also known as positive predictive value. A high precision
     indicates that when the model predicts the positive class, it is
     often correct.
+
+------------------------------------------------------------------------
 
 ### Recall (Sensitivity)
 
@@ -15962,6 +16006,8 @@ medical images with limited labeled data.
     recall indicates that the model correctly identifies a large
     proportion of the actual positive cases.
 
+------------------------------------------------------------------------
+
 ### F1 Score
 
 -   **Description:** Harmonic mean of precision and recall.
@@ -15973,6 +16019,8 @@ medical images with limited labeled data.
     precision and recall. Particularly useful when you have an uneven
     class distribution. F1 score reaches its best value at 1 and worst
     at 0.
+
+------------------------------------------------------------------------
 
 ### Area Under ROC Curve (AUC-ROC)
 
@@ -16007,6 +16055,8 @@ medical images with limited labeled data.
     positive instance is ranked higher than a randomly chosen negative
     instance.
 
+------------------------------------------------------------------------
+
 ### Mean Squared Error (MSE)
 
 -   **Description:** Average squared difference between predicted and
@@ -16022,6 +16072,8 @@ medical images with limited labeled data.
     squaring. Used in regression problems. The square root of MSE (RMSE)
     is often used to express the error in the same units as the target
     variable.
+
+------------------------------------------------------------------------
 
 ### Mean Absolute Error (MAE)
 
@@ -16062,6 +16114,8 @@ medical images with limited labeled data.
     autocorrelations at different lags and is crucial for identifying
     appropriate ARIMA models.
 
+------------------------------------------------------------------------
+
 ### Moving Average
 
 -   **Description:** Average of a subset of data points.
@@ -16075,6 +16129,8 @@ medical images with limited labeled data.
     Choice of window size k affects smoothness vs. responsiveness.
     Larger window sizes result in smoother trends but may miss
     short-term fluctuations.
+
+------------------------------------------------------------------------
 
 ### Exponential Smoothing
 
@@ -16092,6 +16148,8 @@ medical images with limited labeled data.
     and 1. Variants include double and triple exponential smoothing for
     trend and seasonality. Higher $\alpha$ values give more weight to
     recent observations, while lower values provide more smoothing.
+
+------------------------------------------------------------------------
 
 ### ARIMA (Autoregressive Integrated Moving Average)
 
@@ -16156,6 +16214,8 @@ medical images with limited labeled data.
     information in the data. The first principal component accounts for
     the most variance, the second for the second most, and so on.
 
+------------------------------------------------------------------------
+
 ### K-Means Clustering
 
 -   **Description:** Partitions data into k clusters.
@@ -16172,6 +16232,8 @@ medical images with limited labeled data.
     centroid and updates centroids. The number of clusters k must be
     specified in advance. The algorithm aims to minimize within-cluster
     variation.
+
+------------------------------------------------------------------------
 
 ### Decision Tree
 
@@ -16190,6 +16252,8 @@ medical images with limited labeled data.
     each leaf node represents a class label or a probability
     distribution over the classes.
 
+------------------------------------------------------------------------
+
 ### Random Forest
 
 -   **Description:** Ensemble method of decision trees.
@@ -16206,6 +16270,8 @@ medical images with limited labeled data.
     features is considered. The final prediction is typically the mode
     (for classification) or mean (for regression) of the individual tree
     predictions.
+
+------------------------------------------------------------------------
 
 ### Support Vector Machine (SVM)
 
@@ -16225,6 +16291,8 @@ medical images with limited labeled data.
     Soft-margin SVM allows for some misclassifications to achieve better
     generalization.
 
+------------------------------------------------------------------------
+
 ### Neural Networks
 
 -   **Description:** Computational models inspired by human brain.
@@ -16243,6 +16311,8 @@ medical images with limited labeled data.
     with many layers. Training typically involves backpropagation and
     gradient descent to minimize a loss function.
 
+------------------------------------------------------------------------
+
 ### Gradient Descent
 
 -   **Description:** Optimization algorithm to minimize cost function.
@@ -16257,6 +16327,8 @@ medical images with limited labeled data.
     direction of the steepest descent to find the minimum of the cost
     function. Variants include stochastic gradient descent (SGD) and
     mini-batch gradient descent.
+
+------------------------------------------------------------------------
 
 ### Lasso Regression
 
@@ -16275,6 +16347,8 @@ medical images with limited labeled data.
     coefficients that are exactly 0, effectively performing feature
     selection.
 
+------------------------------------------------------------------------
+
 ### Ridge Regression
 
 -   **Description:** Linear regression with L2 regularization.
@@ -16291,6 +16365,8 @@ medical images with limited labeled data.
     the square of the magnitude of coefficients. This shrinks the
     coefficients of correlated predictors towards each other, allowing
     them to borrow strength from each other.
+
+------------------------------------------------------------------------
 
 ### Elastic Net
 
@@ -16331,6 +16407,8 @@ medical images with limited labeled data.
     a reference distribution. Useful for continuous monitoring of model
     inputs to detect when retraining might be necessary.
 
+------------------------------------------------------------------------
+
 ### Model Performance Decay
 
 -   **Description:** Measures the rate at which a model's performance
@@ -16349,6 +16427,8 @@ medical images with limited labeled data.
     any chosen performance measure, allowing flexibility in assessing
     different aspects of model performance over time.
 
+------------------------------------------------------------------------
+
 ### Brier Score for Model Calibration
 
 -   **Description:** Measures the accuracy of probabilistic predictions.
@@ -16363,6 +16443,8 @@ medical images with limited labeled data.
     probability forecasts. Lower scores indicate better calibrated
     models. Particularly useful for binary classification problems where
     the model outputs probabilities.
+
+------------------------------------------------------------------------
 
 ### Return on Investment (ROI) for Model Deployment
 
@@ -16401,6 +16483,8 @@ medical images with limited labeled data.
     within one standard deviation of the mean, 95% within two, and 99.7%
     within three.
 
+------------------------------------------------------------------------
+
 ### Binomial Distribution
 
 -   **Description:** Discrete probability distribution of the number of
@@ -16416,6 +16500,8 @@ medical images with limited labeled data.
     success. The mean of a binomial distribution is np and the variance
     is np(1-p).
 
+------------------------------------------------------------------------
+
 ### Poisson Distribution
 
 -   **Description:** Discrete probability distribution that expresses
@@ -16430,6 +16516,8 @@ medical images with limited labeled data.
 -   **Detailed explanation:** Often used to model the number of times an
     event occurs in an interval of time or space. The mean and variance
     of a Poisson distribution are both equal to λ.
+
+------------------------------------------------------------------------
 
 ### Exponential Distribution
 
