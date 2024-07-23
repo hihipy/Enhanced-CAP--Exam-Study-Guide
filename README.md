@@ -43,33 +43,42 @@ If you want to generate a PDF output from this R Markdown file, follow these ste
 
 3. Replace the existing YAML header with the following configuration:
 
-   ```yaml
-   ---
-   title: "Enhanced CAP® Exam Study Guide"
-   author: "Philip Bachas-Daunert"
-   date: "Most Recent Generation: `r format(Sys.Date(), '%A, %B %d, %Y')`"
-   output: 
-     pdf_document:
-       toc: yes
-       toc_depth: 2
-       number_sections: true
-       fig_caption: yes
-       highlight: tango
-       keep_tex: yes
-       latex_engine: xelatex
-   header-includes:
-      - \usepackage{float}
-      - \floatplacement{figure}{H}
-      - \usepackage{afterpage}
-      - \AfterEndEnvironment{toc}{\afterpage{\null\newpage}}
-      - \usepackage{titlesec}
-      - \newcommand{\sectionbreak}{\clearpage}
-   geometry: margin=1in
-   fontsize: 11pt
-   mainfont: Arial
-   monofont: Courier
-   ---
-   ```
+ ```yaml
+---
+# Basic document information
+title: "Enhanced CAP® Exam Study Guide"
+author: "Philip Bachas-Daunert"
+date: "Most Recent Generation: `r format(Sys.Date(), '%A, %B %d, %Y')`"  # Dynamically generates the current date
+
+# Output format settings
+output: 
+  pdf_document:
+    toc: yes  # Include a table of contents
+    toc_depth: 2  # Include headers up to level 2 in the table of contents
+    number_sections: true  # Automatically number sections
+    fig_caption: yes  # Enable figure captions
+    highlight: tango  # Use 'tango' style for code highlighting
+    keep_tex: yes  # Keep the intermediate .tex file
+    latex_engine: xelatex  # Use xelatex for PDF generation (supports more fonts)
+
+# Additional LaTeX packages and commands
+header-includes:
+   - \usepackage{float}  # Provides more control over float positioning
+   - \floatplacement{figure}{H}  # Force figures to be placed exactly where they appear in the source
+   - \usepackage{afterpage}  # Allows for commands to be executed on the next page
+   - \AfterEndEnvironment{toc}{\afterpage{\null\newpage}}  # Insert a new page after the table of contents
+   - \usepackage{titlesec}  # Allows customization of section titles
+   - \newcommand{\sectionbreak}{\clearpage}  # Start a new page for each section
+
+# Page layout settings
+geometry: margin=1in  # Set all page margins to 1 inch
+
+# Font settings
+fontsize: 11pt  # Set the main font size to 11 points
+mainfont: Arial  # Set the main font to Arial
+monofont: Courier  # Set the monospaced font (used for code) to Courier
+---
+ ```
 
 4. Make sure to copy the entire block, including the opening and closing `---` lines.
 

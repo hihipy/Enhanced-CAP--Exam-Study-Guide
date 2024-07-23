@@ -1,22 +1,22 @@
 ---
 title: "Enhanced CAP® Exam Study Guide"
 author: "Philip Bachas-Daunert"
-date: "Most Recent Generation: `r format(Sys.Date(), '%A, %B %d, %Y')`"
+date: "Most Recent Generation: `r format(Sys.Date(), '%A, %B %d, %Y')`"  # Dynamically generates the current date
 output: 
   html_document: 
-    theme: readable
-    toc: yes
-    toc_float:
-      collapsed: yes
-      smooth_scroll: yes
-    highlight: breezedark
-    fig_caption: yes
-    df_print: paged
-    number_sections: true
-    self_contained: yes
-    mathjax: "default"
+    theme: readable  # Use the 'readable' theme for the HTML output
+    toc: yes  # Include a table of contents
+    toc_float:  # Make the table of contents floating (stays visible while scrolling)
+      collapsed: yes  # TOC appears collapsed by default
+      smooth_scroll: yes  # Enable smooth scrolling in the TOC
+    highlight: breezedark  # Use 'breezedark' style for code highlighting
+    fig_caption: yes  # Enable figure captions
+    df_print: paged  # Use paged tables for data frame output
+    number_sections: true  # Automatically number sections
+    self_contained: yes  # Create a standalone HTML file with all dependencies embedded
+    mathjax: "default"  # Use default MathJax configuration for rendering equations
 editor_options: 
-  chunk_output_type: inline
+  chunk_output_type: inline  # Display R chunk output inline in the editor
 ---
 
 ```{r setup, include=FALSE}
