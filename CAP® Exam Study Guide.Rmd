@@ -440,10 +440,6 @@ solutions. The iterative nature of this process, coupled with a deep
 understanding of the business context and stakeholder needs, sets the
 stage for successful analytics projects.
 
-Sure, let's organize the review questions into the Domain I: Business
-Problem Framing. I will follow the specified format, including the use
-of \`\` around the answers and keeping all multiple-choice options.
-
 ------------------------------------------------------------------------
 
 ## **Review Questions: Domain I. Business Problem Framing**
@@ -12867,6 +12863,23 @@ cost projections, expected ROI, and potential risks.
 
 ------------------------------------------------------------------------
 
+### Business Model Canvas
+
+**Definition:** A strategic management template used for developing new
+business models or documenting existing ones.
+
+**Expanded:** The Business Model Canvas provides a visual chart with
+elements describing a firm's or product's value proposition,
+infrastructure, customers, and finances. It helps in aligning activities
+by illustrating potential trade-offs.
+
+**Example:** Using the Business Model Canvas to analyze and redesign a
+company's e-commerce strategy, considering key partners, activities,
+resources, value propositions, customer relationships, channels,
+customer segments, cost structure, and revenue streams.
+
+------------------------------------------------------------------------
+
 ### Business Opportunity
 
 **Definition:** A viable and potentially profitable product or service
@@ -12916,6 +12929,23 @@ required investment.
 **Example:** Evaluating whether to upgrade manufacturing equipment by
 comparing the cost of the upgrade against projected increases in
 productivity and reduction in maintenance costs.
+
+------------------------------------------------------------------------
+
+### Fishbone Diagram (Ishikawa Diagram)
+
+**Definition:** A visual tool used to explore and identify possible
+causes of a problem by categorizing potential causes into major
+categories.
+
+**Expanded:** The fishbone diagram organizes various contributing
+factors into major categories, typically including people, process,
+equipment, materials, environment, and management. It helps in
+brainstorming and visualizing potential causes of a problem.
+
+**Example:** Creating a fishbone diagram to analyze potential causes of
+customer churn, considering factors like product quality, customer
+service, pricing, and competition.
 
 ------------------------------------------------------------------------
 
@@ -12981,6 +13011,23 @@ cost is the potential gains from stock B that are foregone.
 
 ------------------------------------------------------------------------
 
+### Porter's Five Forces
+
+**Definition:** A framework for analyzing a company's competitive
+environment and industry structure.
+
+**Expanded:** Porter's Five Forces include: 1) Threat of new entrants,
+2) Bargaining power of suppliers, 3) Bargaining power of buyers, 4)
+Threat of substitute products or services, and 5) Rivalry among existing
+competitors. This framework helps in understanding the competitive
+intensity and attractiveness of an industry.
+
+**Example:** Analyzing the competitive landscape of a new tech startup
+using Porter's Five Forces to understand potential challenges from
+established players, new entrants, and changing customer preferences.
+
+------------------------------------------------------------------------
+
 ### Return on Investment (ROI)
 
 **Definition:** A measure used to evaluate the efficiency or
@@ -13012,6 +13059,49 @@ and their impact on the organization.
 
 **Example:** Assessing the risk of data breaches in a new software
 application.
+
+------------------------------------------------------------------------
+
+### Root Cause Analysis
+
+**Definition:** A systematic process for identifying the fundamental
+causes of problems or events in order to develop effective solutions.
+
+**Expanded:** Root Cause Analysis goes beyond addressing symptoms to
+uncover the underlying reasons for issues. It often involves multiple
+techniques and tools to analyze complex problems.
+
+**Example:** Using a combination of the 5 Whys technique and data
+analysis to identify the root cause of recurring production delays in a
+manufacturing plant.
+
+------------------------------------------------------------------------
+
+### SMART Goals
+
+**Definition:** A framework for setting objectives that are Specific,
+Measurable, Achievable, Relevant, and Time-bound.
+
+**Expanded:** SMART is an acronym that guides the creation of effective
+goals:
+
+-   Specific: Clear and precise about what is to be accomplished.
+
+-   Measurable: Includes criteria for measuring progress and success.
+
+-   Achievable: Realistic and attainable given available resources.
+
+-   Relevant: Aligns with broader business objectives and strategies.
+
+-   Time-bound: Has a clearly defined timeline or deadline.
+
+SMART goals help in creating clear, focused objectives that increase the
+likelihood of success in business initiatives and projects.
+
+**Example:** Instead of "Increase sales," a SMART goal would be
+"Increase quarterly sales revenue by 15% in the North American market by
+the end of Q4 through targeted marketing campaigns and expanded
+distribution channels."
 
 ------------------------------------------------------------------------
 
@@ -13153,6 +13243,23 @@ demographics, and inventory levels across different store locations.
 
 ------------------------------------------------------------------------
 
+### Causal Inference
+
+**Definition:** The process of drawing conclusions about causal
+relationships between variables from data, experimental results, or a
+combination of both.
+
+**Expanded:** Causal inference goes beyond correlation to establish
+cause-and-effect relationships. It often involves techniques such as
+randomized controlled trials, instrumental variables, or causal
+graphical models.
+
+**Example:** Using causal inference techniques to determine whether a
+new marketing campaign actually caused an increase in sales, rather than
+the increase being due to other factors.
+
+------------------------------------------------------------------------
+
 ### Conjoint Analysis
 
 **Definition:** A survey-based statistical technique used in market
@@ -13219,6 +13326,24 @@ patterns.
 
 ------------------------------------------------------------------------
 
+### Influence Diagrams
+
+**Definition:** A graphical and mathematical representation used in
+decision analysis to depict the key elements of a decision problem,
+including decisions, uncertainties, and objectives.
+
+**Expanded:** Influence diagrams show the relationships among variables
+in a decision problem, helping to visualize the structure of complex
+decisions. They use nodes to represent decisions, chance events, and
+values, with arrows indicating dependencies or information flow.
+
+**Example:** An influence diagram for a product launch decision might
+include nodes for market demand (uncertainty), production costs (value),
+and launch timing (decision), with arrows showing how these factors
+influence each other and the final outcome.
+
+------------------------------------------------------------------------
+
 ### Input/Output Functions
 
 **Definition:** Functions that define the relationship between inputs
@@ -13249,6 +13374,26 @@ be an attractive requirement.
 
 ------------------------------------------------------------------------
 
+### Leading and Lagging Indicators
+
+**Definition:** Metrics used to measure performance, where leading
+indicators predict future performance and lagging indicators reflect
+past performance.
+
+**Expanded:**
+
+-   Leading Indicators: Forward-looking metrics that signal future
+    events or trends.
+
+-   Lagging Indicators: Metrics that reflect the outcome of past actions
+    or decisions.
+
+**Example:** In a sales context, a leading indicator might be the number
+of new leads generated, while a lagging indicator would be the total
+sales revenue for the past quarter.
+
+------------------------------------------------------------------------
+
 ### Lean Six Sigma
 
 **Definition:** A methodology that relies on a collaborative team effort
@@ -13263,6 +13408,21 @@ Extra-Processing.
 **Example:** A manufacturing company using Lean Six Sigma to reduce
 defects in their production line while also optimizing their supply
 chain to reduce inventory costs.
+
+------------------------------------------------------------------------
+
+### Multi-objective Optimization
+
+**Definition:** A process of simultaneously optimizing two or more
+conflicting objectives subject to certain constraints.
+
+**Expanded:** Multi-objective optimization deals with problems where
+there is no single solution that optimizes all objectives
+simultaneously. It often results in a set of Pareto-optimal solutions,
+where improving one objective necessarily degrades another.
+
+**Example:** Optimizing a manufacturing process to maximize output
+quality while minimizing production costs and environmental impact.
 
 ------------------------------------------------------------------------
 
@@ -13355,6 +13515,23 @@ different economic conditions and regulatory environments.
 
 ------------------------------------------------------------------------
 
+### Sensitivity Analysis
+
+**Definition:** A technique used to determine how different values of an
+independent variable affect a particular dependent variable under a
+given set of assumptions.
+
+**Expanded:** Sensitivity analysis helps in understanding which inputs
+have the biggest impact on the outcomes, aiding in prioritization and
+risk assessment. It can be performed using various methods, including
+one-at-a-time analysis or global sensitivity analysis.
+
+**Example:** Conducting a sensitivity analysis on a financial model to
+determine how changes in interest rates, inflation, or sales growth
+affect the projected profitability of a new project.
+
+------------------------------------------------------------------------
+
 ### What-if Analysis
 
 **Definition:** A process of exploring the outcomes of different
@@ -13441,6 +13618,22 @@ discrepancies, and aligning definitions.
 
 **Example:** Integrating sales data from multiple regions with different
 currencies and units of measure into a unified global sales report.
+
+------------------------------------------------------------------------
+
+### Data Imputation
+
+**Definition:** The process of replacing missing data with substituted
+values based on statistical methods or logical reasoning.
+
+**Expanded:** Data imputation is used to handle missing values in
+datasets, which can improve the quality and usability of the data for
+analysis. Methods can range from simple (e.g., mean imputation) to
+complex (e.g., multiple imputation).
+
+**Example:** Replacing missing age values in a customer dataset with the
+median age of the population to maintain the integrity of the dataset
+for analysis.
 
 ------------------------------------------------------------------------
 
@@ -13628,6 +13821,23 @@ products, time, and locations.
 
 ------------------------------------------------------------------------
 
+### Feature Engineering
+
+**Definition:** The process of creating new features or modifying
+existing features in a dataset to improve the performance of machine
+learning models.
+
+**Expanded:** Feature engineering involves using domain knowledge and
+creativity to extract more information from existing data. It can
+involve creating new variables, transforming existing ones, or combining
+multiple features.
+
+**Example:** Creating a new feature 'customer_lifetime_value' by
+combining data on purchase history, frequency, and monetary value of
+transactions.
+
+------------------------------------------------------------------------
+
 ### Metadata
 
 **Definition:** Data that provides information about other data.
@@ -13799,6 +14009,23 @@ behavior for targeted marketing campaigns.
 
 ------------------------------------------------------------------------
 
+### Cross-Validation
+
+**Definition:** A statistical method used to assess the performance and
+generalizability of a predictive model.
+
+**Expanded:** Cross-validation involves partitioning the data into
+subsets, training the model on a subset (training set), and validating
+it on the remaining data (validation set). This process is typically
+repeated multiple times with different partitions to reduce variability.
+
+**Example:** Using k-fold cross-validation to evaluate a customer churn
+prediction model, where the data is divided into k subsets, and the
+model is trained and validated k times, each time using a different
+subset as the validation set.
+
+------------------------------------------------------------------------
+
 ### Discrete Event Simulation
 
 **Definition:** A modeling technique used to simulate the behavior and
@@ -13810,6 +14037,23 @@ specific time and marks a change in the state of the system.
 
 **Example:** Simulating a manufacturing process to optimize production
 scheduling and reduce bottlenecks.
+
+------------------------------------------------------------------------
+
+### Dimensionality Reduction
+
+**Definition:** The process of reducing the number of random variables
+under consideration in a dataset, often for the purpose of visualization
+or to mitigate the curse of dimensionality.
+
+**Expanded:** Dimensionality reduction techniques can be linear (e.g.,
+Principal Component Analysis) or non-linear (e.g., t-SNE). They aim to
+preserve the most important aspects of the data while reducing its
+complexity.
+
+**Example:** Using PCA to reduce a dataset of customer characteristics
+from 50 dimensions to 10 principal components, allowing for easier
+visualization and potentially improved model performance.
 
 ------------------------------------------------------------------------
 
@@ -13825,6 +14069,23 @@ analysis.
 
 **Example:** Analyzing the economic impact of a new public
 transportation system on local businesses and residents.
+
+------------------------------------------------------------------------
+
+### Ensemble Methods
+
+**Definition:** Machine learning techniques that combine multiple models
+to produce better predictive performance than could be obtained from any
+of the constituent models alone.
+
+**Expanded:** Ensemble methods can use various strategies such as
+bagging (e.g., Random Forests), boosting (e.g., Gradient Boosting
+Machines), or stacking. They often improve model stability and accuracy
+by reducing overfitting.
+
+**Example:** Using a Random Forest classifier, which combines multiple
+decision trees, to predict product demand based on various features like
+seasonality, promotions, and historical sales data.
 
 ------------------------------------------------------------------------
 
@@ -13870,6 +14131,23 @@ widely used in areas such as economics, genetics, and queuing theory.
 
 **Example:** Modeling the probability of different weather conditions
 (sunny, rainy, cloudy) based on current weather.
+
+------------------------------------------------------------------------
+
+### Model Interpretability
+
+**Definition:** The degree to which a human can understand the cause of
+a machine learning model's decision.
+
+**Expanded:** Model interpretability is crucial in many applications,
+especially where decisions need to be explained or audited. Some models
+(e.g., linear regression, decision trees) are inherently more
+interpretable than others (e.g., neural networks).
+
+**Example:** Using SHAP (SHapley Additive exPlanations) values to
+interpret the output of a complex machine learning model used for credit
+scoring, allowing loan officers to understand and explain the factors
+influencing the model's decisions.
 
 ------------------------------------------------------------------------
 
@@ -13942,6 +14220,23 @@ relationships.
 
 **Example:** Using regression analysis to predict housing prices based
 on factors such as location, square footage, and number of bedrooms.
+
+------------------------------------------------------------------------
+
+### Regularization
+
+**Definition:** A technique used in statistical models and machine
+learning to prevent overfitting by adding a penalty term to the loss
+function.
+
+**Expanded:** Regularization discourages learning a more complex or
+flexible model, to avoid the risk of overfitting. Common forms include
+L1 (Lasso) and L2 (Ridge) regularization, which add penalties based on
+the absolute or squared values of the model coefficients, respectively.
+
+**Example:** Applying L2 regularization to a linear regression model
+predicting house prices to prevent the model from relying too heavily on
+any single feature, thus improving its generalization to new data.
 
 ------------------------------------------------------------------------
 
@@ -14018,6 +14313,25 @@ from inputs to outputs through training on large datasets.
 
 ------------------------------------------------------------------------
 
+### Bias-Variance Tradeoff
+
+**Definition:** The property of a model that describes the balance
+between its ability to fit the training data (low bias) and its ability
+to generalize to new, unseen data (low variance).
+
+**Expanded:** High bias can lead to underfitting, where the model is too
+simple to capture the underlying patterns in the data. High variance can
+lead to overfitting, where the model is too complex and captures noise
+in the training data. The goal is to find the right balance that
+minimizes both bias and variance.
+
+**Example:** Adjusting the maximum depth of a decision tree to find the
+optimal point where it's deep enough to capture important patterns in
+the data (reducing bias) but not so deep that it memorizes noise in the
+training set (increasing variance).
+
+------------------------------------------------------------------------
+
 ### Champion Model
 
 **Definition:** The best-performing model chosen from a set of candidate
@@ -14029,6 +14343,25 @@ production environment.
 
 **Example:** A champion model chosen for predicting customer churn based
 on its accuracy and F1 score.
+
+------------------------------------------------------------------------
+
+### Confusion Matrix
+
+**Definition:** A table used to describe the performance of a
+classification model by showing the counts of true positive, true
+negative, false positive, and false negative predictions.
+
+**Expanded:** The confusion matrix provides a comprehensive view of a
+model's performance, allowing for the calculation of various metrics
+such as accuracy, precision, recall, and F1-score. It's particularly
+useful for understanding how well a model performs across different
+classes, especially in imbalanced datasets.
+
+**Example:** Using a confusion matrix to evaluate a fraud detection
+model, showing how many transactions were correctly identified as
+fraudulent or legitimate, and how many were misclassified in either
+direction.
 
 ------------------------------------------------------------------------
 
@@ -14128,6 +14461,23 @@ and ensuring generalization to new data.
 
 **Example:** Evaluating a model using a separate test set that was not
 used during training.
+
+------------------------------------------------------------------------
+
+### Hyperparameter Tuning
+
+**Definition:** The process of optimizing the parameters that control
+the learning process of a machine learning model.
+
+**Expanded:** Unlike model parameters that are learned from the data,
+hyperparameters are set before the learning process begins. Tuning
+involves searching for the optimal combination of hyperparameters to
+improve model performance. Common methods include grid search, random
+search, and Bayesian optimization.
+
+**Example:** Using cross-validation and grid search to find the optimal
+values for the number of trees and maximum depth in a random forest
+classifier predicting loan defaults.
 
 ------------------------------------------------------------------------
 
@@ -14290,6 +14640,26 @@ pixel features.
 
 ------------------------------------------------------------------------
 
+### Transfer Learning
+
+**Definition:** A machine learning technique where a model developed for
+one task is reused as the starting point for a model on a second,
+related task.
+
+**Expanded:** Transfer learning leverages knowledge gained from solving
+one problem and applies it to a different but related problem. This
+approach is particularly useful when the target task has limited labeled
+data but is similar to a task with abundant data. It's commonly used in
+deep learning, especially for image and natural language processing
+tasks.
+
+**Example:** Using a pre-trained convolutional neural network (CNN)
+model on ImageNet data as a starting point for a custom image
+classification task, such as identifying different types of
+manufacturing defects in a production line.
+
+------------------------------------------------------------------------
+
 ### Unsupervised Learning
 
 **Definition:** A type of machine learning that finds patterns and
@@ -14309,16 +14679,18 @@ similar purchasing behaviors for targeted marketing.
 
 ### A/B Testing
 
-**Definition:** A method of comparing two versions of a webpage or app
-against each other to determine which one performs better.
+**Definition:** A method of comparing two versions of a model or system
+to determine which performs better in a real-world environment.
 
-**Expanded:** A/B testing involves splitting the audience into two
-groups and showing each group a different version. The performance of
-each version is measured and compared to determine which one achieves
-the desired outcome more effectively.
+**Expanded:** A/B testing involves running two versions simultaneously
+with different user groups and comparing their performance. This
+approach helps in validating new models or features before full
+deployment.
 
-**Example:** Testing two different versions of a landing page to see
-which one results in more sign-ups.
+**Example:** Deploying a new recommendation algorithm to 10% of users
+while maintaining the current algorithm for 90%, then comparing
+engagement metrics to decide whether to fully implement the new
+algorithm.
 
 ------------------------------------------------------------------------
 
@@ -14368,15 +14740,18 @@ order processing, and payment handling.
 
 ### Canary Release
 
-**Definition:** A deployment strategy that releases new software to a
-small subset of users before rolling it out to the entire user base.
+**Definition:** A deployment strategy where a new version of a model or
+system is gradually rolled out to a small subset of users before being
+deployed to the entire user base.
 
 **Expanded:** Canary releases allow for testing in a live environment
 with minimal risk. If the canary release is successful, the changes are
-gradually rolled out to all users.
+gradually rolled out to all users. If issues are detected, the release
+can be quickly rolled back with minimal impact.
 
-**Example:** Releasing a new feature to 5% of users to monitor its
-performance and impact before a full-scale release.
+**Example:** Deploying a new fraud detection model to 5% of transactions
+for a week, monitoring its performance closely, and gradually increasing
+its usage if no issues are detected.
 
 ------------------------------------------------------------------------
 
@@ -14440,16 +14815,19 @@ a new software version across different regions.
 
 ### DevOps
 
-**Definition:** A set of practices that combine software development
+**Definition:** A set of practices that combines software development
 (Dev) and IT operations (Ops) to shorten the development lifecycle and
-deliver high-quality software.
+provide continuous delivery of high-quality software.
 
-**Expanded:** DevOps emphasizes collaboration, automation, and
-continuous delivery. It aims to improve efficiency, speed, and
-reliability in software development and deployment.
+**Expanded:** In the context of model deployment, DevOps principles help
+streamline the process of moving models from development to production.
+This includes automating deployment processes, continuous integration
+and delivery (CI/CD), and fostering collaboration between data
+scientists and IT operations teams.
 
-**Example:** Implementing DevOps practices to automate the deployment
-pipeline, from code integration to production release.
+**Example:** Implementing a CI/CD pipeline that automatically tests,
+packages, and deploys a machine learning model whenever changes are
+pushed to the code repository.
 
 ------------------------------------------------------------------------
 
@@ -14498,6 +14876,24 @@ authentication.
 
 ------------------------------------------------------------------------
 
+### Model Monitoring
+
+**Definition:** The continuous process of tracking a deployed model's
+performance and behavior in a production environment to ensure it
+continues to meet business objectives and maintains accuracy over time.
+
+**Expanded:** Model monitoring involves tracking key performance
+indicators, detecting data drift or concept drift, and alerting
+stakeholders when the model's performance degrades. It's crucial for
+maintaining the reliability and effectiveness of deployed models.
+
+**Example:** Setting up a dashboard that tracks a credit scoring model's
+accuracy, false positive rate, and data distribution of input features,
+with alerts configured to notify the team if any metrics deviate
+significantly from expected ranges.
+
+------------------------------------------------------------------------
+
 ### Model Registry
 
 **Definition:** A centralized repository for storing and managing
@@ -14512,18 +14908,20 @@ models, ensuring that the latest version is used in production.
 
 ------------------------------------------------------------------------
 
-### Monitoring and Alerting
+### Model Versioning
 
-**Definition:** The process of continuously observing a system's
-performance and generating alerts when predefined thresholds are
-breached.
+**Definition:** The practice of tracking and managing different versions
+of a model throughout its lifecycle, from development to deployment and
+beyond.
 
-**Expanded:** Monitoring tools collect and analyze metrics, logs, and
-traces to ensure system health. Alerts notify the relevant teams of
-issues, enabling quick response and resolution.
+**Expanded:** Model versioning involves assigning unique identifiers to
+each iteration of a model, tracking changes, and maintaining a history
+of model performance. This practice is crucial for reproducibility,
+auditing, and rolling back to previous versions if needed.
 
-**Example:** Implementing Prometheus and Grafana to monitor application
-performance and set up alerts for high CPU usage or memory leaks.
+**Example:** Maintaining a versioning system where Model v1.2.3
+represents the second minor update to the third patch of the first major
+version of a predictive maintenance model.
 
 ------------------------------------------------------------------------
 
@@ -14637,6 +15035,23 @@ comparing the costs saved on equipment repairs and downtime reduction.
 
 ------------------------------------------------------------------------
 
+### Concept Drift
+
+**Definition:** A change in the relationship between input variables and
+the target variable that a model is trying to predict.
+
+**Expanded:** Concept drift occurs when the underlying patterns or
+relationships that a model has learned become invalid over time. This
+can happen due to changes in customer behavior, market conditions, or
+other external factors.
+
+**Example:** In a fraud detection model, concept drift might occur if
+fraudsters develop new techniques that weren't present in the training
+data, changing the relationship between the input features and the fraud
+classification.
+
+------------------------------------------------------------------------
+
 ### Cross-Validation
 
 **Definition:** A technique for assessing how the results of a
@@ -14650,6 +15065,23 @@ robustness.
 **Example:** Using k-fold cross-validation to evaluate the accuracy of a
 machine learning model, where the data is divided into k subsets and the
 model is trained and validated k times.
+
+------------------------------------------------------------------------
+
+### Data Drift
+
+**Definition:** The phenomenon where the statistical properties of the
+input data used to train a model change over time in the production
+environment.
+
+**Expanded:** Data drift can occur due to changes in data collection
+methods, shifts in the underlying population, or alterations in the
+business environment. It can lead to degradation in model performance if
+not detected and addressed.
+
+**Example:** In a customer churn prediction model, data drift might
+occur if the demographic composition of the customer base significantly
+changes over time, potentially making the original model less accurate.
 
 ------------------------------------------------------------------------
 
@@ -14727,16 +15159,19 @@ new types of machinery and operational conditions are introduced.
 
 ### Model Governance
 
-**Definition:** The framework for managing and controlling the
-development, deployment, and maintenance of models.
+**Definition:** A framework of policies, procedures, and controls to
+ensure the responsible development, deployment, and use of analytical
+models throughout their lifecycle.
 
-**Expanded:** Model governance ensures that models are developed and
-used in a controlled and standardized manner. It includes policies,
-procedures, and tools for monitoring and managing models throughout
-their lifecycle.
+**Expanded:** Model governance encompasses aspects such as model
+documentation, version control, performance monitoring, and ethical
+considerations. It aims to maintain model integrity, ensure regulatory
+compliance, and manage model-related risks.
 
-**Example:** Implementing model governance practices to ensure all
-models used in a financial institution comply with regulatory standards.
+**Example:** Implementing a model governance framework that requires all
+predictive models to undergo regular audits, have clear documentation of
+assumptions and limitations, and adhere to ethical guidelines for
+fairness and transparency.
 
 ------------------------------------------------------------------------
 
@@ -14768,6 +15203,23 @@ data to improve its predictions.
 
 ------------------------------------------------------------------------
 
+### Model Retirement
+
+**Definition:** The process of decommissioning a model that is no longer
+effective, relevant, or aligned with business objectives.
+
+**Expanded:** Model retirement involves assessing the model's continued
+value, planning for its replacement if necessary, and ensuring a smooth
+transition to avoid disruption to business processes. It's a crucial
+part of the model lifecycle management process.
+
+**Example:** Retiring a product recommendation model that no longer
+performs well due to significant changes in product lines and customer
+preferences, and replacing it with a new model trained on more recent
+data and using updated algorithms.
+
+------------------------------------------------------------------------
+
 ### Model Retraining
 
 **Definition:** The process of training a model again with new data to
@@ -14782,32 +15234,21 @@ interaction data to provide more relevant suggestions.
 
 ------------------------------------------------------------------------
 
-### Model Sunset
-
-**Definition:** The process of retiring a model that is no longer useful
-or relevant.
-
-**Expanded:** Sunsetting involves deactivating the model and possibly
-replacing it with a new one. It ensures that obsolete models do not
-consume resources or impact business decisions.
-
-**Example:** Sunsetting an old customer segmentation model that no
-longer reflects current market conditions.
-
-------------------------------------------------------------------------
-
 ### Model Versioning
 
-**Definition:** The practice of keeping track of different versions of a
-model throughout its lifecycle.
+**Definition:** The practice of assigning unique version numbers to
+different iterations or states of a model throughout its development and
+deployment lifecycle.
 
-**Expanded:** Versioning involves documenting changes, updates, and
-improvements made to the model. It helps in maintaining a clear history
-and ensuring reproducibility.
+**Expanded:** Model versioning helps track changes, facilitate rollbacks
+if needed, and maintain a clear history of model evolution. It's crucial
+for reproducibility, auditing, and understanding model performance over
+time.
 
-**Example:** Maintaining version control for a predictive analytics
-model, recording each iteration and its corresponding performance
-metrics.
+**Example:** Using a semantic versioning system (e.g., v1.2.3) where the
+first number represents major changes, the second represents minor
+updates, and the third represents patches or small fixes to a customer
+segmentation model.
 
 ------------------------------------------------------------------------
 
